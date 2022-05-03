@@ -1,36 +1,36 @@
 body {
   font-family: Sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgb(131,58,180);
-  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right top, #ffe599, #f6b26b, #e06666, #e06666, #e00303 );
   color: white;
   height: 100%;
 }
 .error {
   text-align: left;
-  max-width: 400px;
-  padding: 0 10px; 
+  max-width: 480px;
+  padding: 0 12px; 
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 16px;
   white-space: pre-wrap;
   word-wrap: break-word;
-  font-family: Menlo, monaco;
+  font-family: Poppins, Ubuntu;
 }
 .box {
-  max-width: 300px;
+  max-width: 360px;
   text-align: center;
 }
 .box > *, .minter > *{
   display: block;
   width: 100% !important;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .nice-select {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: black;
 }
 .nice-select-dropdown {
@@ -39,7 +39,7 @@ body {
 button {
   background: rgba(0,0,0,0.8);
   color: white;
-  padding: 10px;
+  padding: 12px;
   border: none;
 }
 .container {
@@ -47,7 +47,7 @@ button {
   margin: 50px auto;
 }
 a {
-  color: royalblue;
+  color: carrotorange;
   text-decoration: none;
   display: block;
 }
@@ -57,7 +57,7 @@ a {
 }
 h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 32px;
   box-sizing: border-box;
   letter-spacing: -1px;
 }
@@ -82,11 +82,11 @@ table {
   table-layout: fixed;
   overflow-wrap: break-word;
   display: table !important;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 td, th {
-  padding: 5px;
-  font-size: 14px;
+  padding: 6px;
+  font-size: 16px;
 }
 th {
   border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -111,24 +111,24 @@ tr {
   display: none !important;
 }
 .loading {
-  padding: 20px;
+  padding: 24px;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 16px;
   background: rgba(255,255,255,0.1);
-  margin-top: 20px;
-  border-radius: 50px;
+  margin-top: 24px;
+  border-radius: 64px;
 }
 tr img {
-  height: 20px;
+  height: 24px;
 }
 tr a {
   color: white;
 }
 .token {
   background: rgba(0,0,0,0.3);
-  padding: 5px;
+  padding: 6px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 }
 .lds-ripple {
   display: inline-block;
